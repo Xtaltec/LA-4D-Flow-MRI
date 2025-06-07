@@ -1,0 +1,13 @@
+name: paraview
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # Python and pip
+  - python=3.10.17
+  - pip=25.1
+  - conda-forge::paraview=5.13.3
+
+  # Pip packages
+  - pip:
+    - python-dotenv==1.1.0

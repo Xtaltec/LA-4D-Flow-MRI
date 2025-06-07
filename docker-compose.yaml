@@ -1,0 +1,31 @@
+services:
+  4d_flow_cpu:
+    container_name: 4d_flow_cpu
+    build:
+      context: .
+      dockerfile: docker/cpu.dockerfile
+    network_mode: host 
+    shm_size: '2gb'
+    volumes:
+      - .:${BASE_PATH} 
+      - ${DATA_PATH}:${BASE_PATH}/data 
+    command: tail -f /dev/null
+
+  4d_flow_gpu:
+    container_name: 4d_flow_gpu
+    build:
+      context: .
+      dockerfile: docker/gpu.dockerfile
+    network_mode: host 
+    shm_size: '2gb'
+    volumes:
+      - .:${BASE_PATH}
+      - ${DATA_PATH}:${BASE_PATH}/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu] 
+    command: tail -f /dev/null

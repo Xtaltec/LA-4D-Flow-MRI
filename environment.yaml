@@ -1,0 +1,48 @@
+name: fourflow
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  # Python and pip
+  - python=3.10.16
+  - pip=25.1
+
+  # Deep learning libraries
+  - pytorch::pytorch=2.5.1
+  - pytorch::torchvision=0.20.1
+  - pytorch::torchaudio=2.5.1
+  - pytorch::pytorch-cuda=12.4
+
+  # Core scientific libraries
+  - numpy=2.2.5
+  - scipy=1.15.3
+  - pandas=2.2.3
+  - scikit-learn=1.6.1
+  - matplotlib=3.10.0
+  - seaborn=0.13.2
+  - statsmodels=0.14.4
+
+  # Image processing and medical imaging
+  - pydicom=3.0.1
+  - nibabel=5.3.2
+
+  # Other utilities
+  - natsort=7.1.1
+  - conda-forge::feather-format=0.4.1
+  - conda-forge::pingouin=0.5.5
+
+  # Pip packages
+  - pip:
+    - pyvista==0.45.2
+    - pyevtk==1.6.0
+    - gmsh==4.13.1
+    - pymeshfix==0.17.1
+    - SimpleITK==2.5.0
+    - medpy==0.5.2
+    - nipype==1.10.0
+    - python-pptx==1.0.2
+    - nnunetv2==2.2.1
+    - python-dotenv==1.1.0
+    - openpyxl==3.1.5
