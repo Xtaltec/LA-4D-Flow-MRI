@@ -197,6 +197,7 @@ python ./scripts/segmentation_training.py --datasets Study1 Study2 --structure l
 ```
 
 **Expected Input Directory Structure**:
+```
 BASE_PATH/
 └── data/
     └── processed/
@@ -209,7 +210,7 @@ BASE_PATH/
                 └── training/
                     ├── datasets/   # Temporary per-cohort datasets
                     └── tasks/      # Combined dataset for each structure formatted for nnUNet training
-
+```
 #### `segmentation_inference.py`
 
 Performs inference using trained nnU-Net models to segment PC-MRA images. The script handles batch processing with retry mechanisms and automatically organizes predicted masks by anatomical structure.
