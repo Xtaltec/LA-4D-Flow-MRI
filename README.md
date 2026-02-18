@@ -1,8 +1,17 @@
-# A Computational Pipeline for Advanced Analysis of 4D Flow MRI in the Left Atrium
+# Automated 4D Flow MRI Pipeline for the Quantification of Advanced Hemodynamic Parameters in the Left Atrium
 
 [![arXiv Preprint](https://img.shields.io/badge/arXiv-2505.09746-b31b1b.svg)](https://arxiv.org/abs/2505.09746)
+[![Scientific Reports](https://img.shields.io/badge/Scientific%20Reports-s41598--025--34972--7-2ea44f.svg)](https://www.nature.com/articles/s41598-025-34972-7)
 
-This repository contains the implementation of the computational pipeline described in the preprint: "[A Computational Pipeline for Advanced Analysis of 4D Flow MRI in the Left Atrium](https://arxiv.org/abs/2505.09746)".
+This repository contains the implementation of the computational pipeline described in our peer-reviewed publication:
+
+**Morales et al.**  
+*Automated 4D flow MRI pipeline for the quantification of advanced hemodynamic parameters in the left atrium.*  
+Scientific Reports (2026).  
+https://doi.org/10.1038/s41598-025-34972-7
+
+The original preprint version is also available on arXiv:
+https://arxiv.org/abs/2505.09746
 
 ## Table of Contents
 - [Overview](#overview)
