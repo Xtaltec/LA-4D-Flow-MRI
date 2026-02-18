@@ -386,6 +386,7 @@ https://doi.org/10.1038/s41598-025-34972-7
   publisher={Nature Publishing Group UK London},
   doi={10.1038/s41598-025-34972-7}
 }
+```
 
 ## References
 [1] Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nat Methods 18, 203–211 (2021). https://doi.org/10.1038/s41592-020-01008-z
