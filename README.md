@@ -368,5 +368,24 @@ python ./scripts/analysis.py --structure la lv --clinical_columns Age BSA EF --i
 ## Ongoing features
 - Integration of R and `ggplot2` for generating visualizations from the ParaView analysis.
 
+## Citation
+
+If you find this repository useful in your research, please cite our paper:
+
+Morales X, Elsayed A, Zhao D, Loncaric F, Aguado A, Masias M, Quill G, Ramos M, Doltra A, García-Alvarez A, et al.  
+**Automated 4D flow MRI pipeline for the quantification of advanced hemodynamic parameters in the left atrium.**  
+*Scientific Reports* (2026).  
+https://doi.org/10.1038/s41598-025-34972-7
+
+```bibtex
+@article{morales2026automated,
+  title={Automated 4D flow MRI pipeline for the quantification of advanced hemodynamic parameters in the left atrium},
+  author={Morales, Xabier and Elsayed, Ayah and Zhao, Debbie and Loncaric, Filip and Aguado, Ainhoa and Masias, Mireia and Quill, Gina and Ramos, Marc and Doltra, Adelina and Garc{\'\i}a-Alvarez, Ana and others},
+  journal={Scientific Reports},
+  year={2026},
+  publisher={Nature Publishing Group UK London},
+  doi={10.1038/s41598-025-34972-7}
+}
+
 ## References
 [1] Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nat Methods 18, 203–211 (2021). https://doi.org/10.1038/s41592-020-01008-z
